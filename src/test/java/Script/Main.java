@@ -1,5 +1,6 @@
 package Script;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -52,7 +53,11 @@ public class Main
 			add= new Search(driver);
 			add.Click_On_Add();
 		}
-		
+		@Test
+		public void Testng3() throws InterruptedException 
+		{
+			driver.findElement(By.id("name")).click();
+		}
 		
 }
 
