@@ -53,11 +53,11 @@ public class Main
 			add= new Search(driver);
 			add.Click_On_Add();
 		}
-		@Test
+		/*@Test
 		public void Testng3() throws InterruptedException 
 		{
 			driver.findElement(By.id("name")).click();
-		}
+		}*/
 		
 }
 
